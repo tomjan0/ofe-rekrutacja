@@ -1,0 +1,65 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  text-decoration-line: none;
+}
+.btn-small {
+  border-radius: 9999px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.btn-medium {
+  height: 2.5rem;
+  border-radius: 9999px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+}
+.btn-large {
+  height: 3rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+.btn-success {
+  background-color: rgb(14 135 95);
+  color: rgb(255 255 255);
+}
+.btn-success:hover {
+  background-color: rgb(14 135 95);
+}
+.btn-danger {
+  background-color: rgb(217 41 28);
+  color: rgb(255 255 255);
+}
+.btn-danger:hover {
+  background-color: rgb(229 68 56);
+}
+.btn-info {
+  background-color: rgb(20 99 210);
+
+  color: rgb(255 255 255);
+}
+.btn-info:hover {
+  background-color: rgb(37 119 234);
+}
